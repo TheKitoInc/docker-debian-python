@@ -1,0 +1,4 @@
+services:
+  kito-debian:
+    build: https://github.com/TheKitoInc/docker-debian.git
+    image: kito-debian:latest
