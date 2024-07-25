@@ -1,0 +1,9 @@
+include:
+  - ./depends.yml
+# - ./depends.experimental.yml
+
+services:
+  kito-debian-python:
+    depends_on: [kito-debian]
+    build: .
+    image: kito-debian-python:latest
