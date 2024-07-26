@@ -1,6 +1,5 @@
 include:
-  - ./depends.yml
-# - ./depends.experimental.yml
+  - https://github.com/TheKitoInc/docker-debian.git
 
 services:
   kito-debian-python:
