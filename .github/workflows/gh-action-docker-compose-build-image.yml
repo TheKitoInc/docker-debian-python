@@ -22,5 +22,6 @@ jobs:
 
       - name: Build the Docker image
         run: |
+          export COMPOSE_EXPERIMENTAL_GIT_REMOTE=1
           docker-compose version
           docker-compose build
