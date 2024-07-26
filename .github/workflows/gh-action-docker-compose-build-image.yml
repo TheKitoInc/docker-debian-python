@@ -1,4 +1,4 @@
-name: Docker Compose Image CI
+name: GH-ACTION-DOCKER-COMPOSE-BUILD-IMAGE
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: ["main"]
 
 jobs:
-  build:
+  GH-ACTION-DOCKER-COMPOSE-BUILD-IMAGE:
     runs-on: ubuntu-latest
 
     steps:
